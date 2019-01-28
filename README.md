@@ -1,2 +1,4 @@
 # Howard-MATH-361B
-Making changes
+ehoward2@mail.umw.edu
+MATH224A
+Brookie
