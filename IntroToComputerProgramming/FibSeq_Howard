@@ -23,7 +23,7 @@ def casNum (my_list):
 F0=0
 F1=1
 
-term = 20
+term = 100
 my_list=[]
 list_Cas=[]
 
