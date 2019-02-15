@@ -16,7 +16,7 @@ def nextNum (F1, F0):
 F0=0
 F1=1
 
-term = 20
+term = 10,000
 m = 2
 my_list=[]
 my_list2 = []
