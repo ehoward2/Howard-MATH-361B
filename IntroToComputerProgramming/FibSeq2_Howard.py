@@ -6,27 +6,27 @@ Created on Wed Feb 13 12:38:42 2019
 @author: emilyhoward
 """
 
-def nextNum (F1, F0):
-    for ii in range (2,term):
-        F2=my_list[ii-1] + my_list[ii-2] 
-        my_list.append (F2)
+def NNUM (S1, S0):
+    for ii in range (2,amount):
+        S2=List1[ii-1] + List1[ii-2] 
+        List1.append (S2)
 
             
 
-F0=0
-F1=1
+S0=0
+S1=1
 
-term = 10,000
+amount = 10,000
 m = 2
-my_list=[]
-my_list2 = []
+List1=[]
+List2 = []
 
-my_list.append(F0)
-my_list.append(F1)
-nextNum(F1,F0)
+List1.append(S0)
+List1.append(S1)
+NNUM(S1,S0)
 
-for ii in range (0, term):
-        if my_list[ii]%m ==0:
-            my_list2.append(my_list[ii])
+for ii in range (0, amount):
+        if List1[ii]%m ==0:
+            List2.append(List1[ii])
             
-print(my_list2)
+print(List2)
