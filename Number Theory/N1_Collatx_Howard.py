@@ -6,10 +6,10 @@ Created on Mon Mar 11 12:04:00 2019
 @author: emilyhoward
 """
 
+import numpy as np
 
-
-N= 500
-a_0= 70
+N= 100
+a_0= 400
 my_list = [a_0]
 
 for ii in range (1, N):

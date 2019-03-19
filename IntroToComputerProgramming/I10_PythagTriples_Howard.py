@@ -18,4 +18,4 @@ for ii in range(1,500):
                 
 
 print (my_array[np.where(my_array[:,3]==1026)],'this is the triple we wanted to find.')
-
+print (my_array)
