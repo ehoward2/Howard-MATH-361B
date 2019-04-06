@@ -7,9 +7,9 @@ Created on Wed Apr  3 11:57:11 2019
 """
 import math
 import numpy as np
-count = np.zeros ([0,2])
-neg_one = np.zeros ([0,2])
-P = 50
+quad = np.zeros ([0,2])
+negativeone = np.zeros ([0,2])
+P = 30
 
 def primecheck(x):
     if x==1:
@@ -35,20 +35,20 @@ for p in primelist:
                 kk = k in num
                 if kk == False:
                     num.append(k)
-    count = np.vstack ([count, np.array ([p,len(num)])])
+    quad = np.vstack ([quad, np.array ([p,len(num)])])
 
 print('These are the  quadractic residues')
-print (count)
+print (quad)
 
 
 for p in primelist:
-    QR = "False"
+    Q = "False"
     for n in range (0,p):
         if (p-1) == (n**2)%p:
-            QR = "True"
+            Q = "True"
             
-    neg_one = np.vstack ([neg_one, np.array([p,QR])])
+    negativeone = np.vstack ([negativeone, np.array([p,Q])])
 
 
 print ('When -1 is a quadratic residue:')
-print (neg_one)
+print (negativeone)
