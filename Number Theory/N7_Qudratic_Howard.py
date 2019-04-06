@@ -37,7 +37,7 @@ for p in primelist:
                     num.append(k)
     count = np.vstack ([count, np.array ([p,len(num)])])
 
-print('The quadractic residues are:')
+print('These are the  quadractic residues')
 print (count)
 
 
